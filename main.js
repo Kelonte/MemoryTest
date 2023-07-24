@@ -36,13 +36,6 @@ function iniciar(){
     }
 }
 
-function mostrar(){
-    let tabla = document.querySelectorAll(".imagen");
-    for(i = 0; i < tope; i++){
-        tabla[i].src =  "./img/pilotín.png";
-    }
-}
-
 function comparar(){
     if (lista[par_1] != lista[par_2]){
         vueltas++;
@@ -120,7 +113,6 @@ function verBoton(){
     }
     lista = [...inicio];
     iniciar();
-    mostrar();
     mezclar();
     cargarBotones();
     resize();
@@ -164,13 +156,12 @@ function cargarBotones(){
     }
 }
 
-let lineaHome = document.querySelector("#tabla").innerHTML;
+const lineaHome = document.querySelector("#tabla").innerHTML;
 iniciar();
 mezclar();
 cargarBotones();
 resize();
 
-// let imagenes = document.querySelectorAll(".imagen");
 let botones = document.querySelectorAll(".btn");
 
 for(i = 0; i < botones.length; i++){
