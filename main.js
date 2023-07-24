@@ -6,10 +6,10 @@ let par_2 = 99;
 let comparando = false;
 let vueltas = 0;
 let pares = 0;
-let chime = new Audio("http://sonidosmp3gratis.com/sounds/rightchime1.mp3");
-let click = new Audio("http://sonidosmp3gratis.com/sounds/Computer_Mouse_Click_01_Sound_Effect_Mp3_339.mp3");
-let clap = new Audio("http://sonidosmp3gratis.com/sounds/clapping.mp3");
-let final = new Audio ("http://sonidosmp3gratis.com/sounds/applause-applause-applause.mp3");
+const chime = new Audio("http://sonidosmp3gratis.com/sounds/rightchime1.mp3");
+const click = new Audio("http://sonidosmp3gratis.com/sounds/Computer_Mouse_Click_01_Sound_Effect_Mp3_339.mp3");
+const clap = new Audio("http://sonidosmp3gratis.com/sounds/clapping.mp3");
+const final = new Audio ("http://sonidosmp3gratis.com/sounds/applause-applause-applause.mp3");
 let listaIndices = [] ;
 
 function mezclar(){
