@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* transition:all 300ms ease-in-out; */
+}
+
+body{
+    background: linear-gradient(90deg,#b25d31,#ffe3cf);
+    width: 100vw;
+}
+
+#portada{
+    background-color: #00000015;
+    color: #58352f;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#botonera, #resultados{
+    background-color: #00000030;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 100vw;
+    height: 5vh;
+}
+
+.btn{
+    width: 100px;
+    background-color: #58352f;
+    color: white;
+    margin-left: 15px;
+    font-size: large;
+}
+
+.dificultad{
+    width: 50px;
+}
+
+.texto{
+    width: 120px;
+    margin-left: 15px;
+    color: white;
+    font-size: medium;
+}
+
+#contenedor{
+    display: flex;
+    /* align-items: center; */
+    justify-content:center ;
+    width: 100vw;
+    height: 80vh;
+}
+
+#tabla{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffc0cb00;
+    width: 770px;
+}
+
+.bombon{
+    background-color: #ffb3d9;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 3px solid black;
+}
+
+.imagen{
+    object-fit: scale-down;
+    width: 100%;
+    height:100%;
+}
